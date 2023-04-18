@@ -253,4 +253,5 @@ def predict():
         return render_template("predict.html", response = response)
 
 if __name__ == '__main__':
-    app.run(debug = False)
+    print("Starting Python Flask Server For Sales Prediction...")
+    app.run(port=5000, debug=False, host='0.0.0.0')
