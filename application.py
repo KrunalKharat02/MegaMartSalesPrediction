@@ -1,9 +1,7 @@
-import os
+
 import pickle
-import numpy as np
 from flask import Flask, request,jsonify
 from flask import Flask, redirect, render_template, request
-import pandas as pd
 from fpdf import FPDF
 
 # load model
